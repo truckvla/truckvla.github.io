@@ -16,6 +16,10 @@ html{scroll-padding-top:110px}
 .author{white-space:nowrap}.author sup{font-size:10px;margin-left:3px;position:relative;top:-2px}
 .truck-project .affiliation{font-size:14px;display:flex;justify-content:center;gap:25px;margin:0 0 23px;max-width:none}
 .truck-project .affiliation sup{font-size:10px;margin-right:3px}
+.truck-project .affiliation-logos{display:grid;grid-template-columns:minmax(0,260px) minmax(0,210px);align-items:center;justify-content:center;gap:42px;margin:0 auto 25px}
+.truck-project .affiliation-logo{display:block;min-width:0;border-radius:3px}
+.truck-project .affiliation-logo img{display:block;width:90%;height:auto;margin-inline:auto}
+.truck-project .affiliation-logo:focus-visible{outline:3px solid var(--accent);outline-offset:8px}
 .truck-project .resource-links{justify-content:center;gap:9px}
 .truck-project .button{border-radius:6px;padding:9px 17px;font-size:13px;min-height:41px}
 .availability-dot{width:5px;height:5px;background:#a1aaba;border-radius:50%;margin-left:2px}
@@ -170,6 +174,7 @@ html{scroll-padding-top:110px}
  .truck-project .hero{padding:34px 0 35px}.truck-project .hero>.eyebrow{font-size:9px;letter-spacing:.08em;max-width:320px;margin:0 auto 18px}
  .truck-project .hero h1{font-size:32px;line-height:1.16;margin-bottom:23px}.truck-project .hero h1 span{margin-top:4px}
  .truck-project .authors{font-size:14px;gap:7px 18px}.truck-project .affiliation{font-size:12px;gap:5px;flex-direction:column;line-height:1.7;margin:12px 0 20px}
+ .truck-project .affiliation-logos{grid-template-columns:minmax(0,190px) minmax(0,154px);gap:22px;margin-bottom:22px}
  .truck-project .resource-links{gap:6px}.truck-project .button{font-size:11px;padding:8px;min-height:40px;gap:6px}.truck-project .button .icon{width:14px;height:14px}
  .hero-one-liner{font-size:14px;line-height:1.7;max-width:330px;margin:25px auto 19px}
  .truck-project .hero-comparison>figcaption{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 15px;padding:10px 8px}
